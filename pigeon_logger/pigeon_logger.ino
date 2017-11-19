@@ -1,8 +1,8 @@
 
 /*
- * FW Ver: 1.06
- * HW Ver: 5_x
- * Date: 13-Oct-2017
+ * FW Ver: 10E
+ * HW Ver: 2_27
+ * Date: 19-Nov-2017
  * 
  * Data_0 -> PC0 PIN_23
  * Data_1 -> PC1 PIN_24
@@ -39,15 +39,16 @@
 #include <SPI.h>
 #include <SD.h>
 #include <util/delay.h>
+#include "version.h"
 
 #define F_CPU 16000000UL  // 16 MHz
 
 // Define log file name depends on board No.
-#define LOG_FILE_NAME "log_X10D.akm"
+//#define LOG_FILE_NAME "log_X10D.akm"
 
 // Firmware and hardware version
-#define FW_VER "10D"
-#define HW_VER "2_27"
+//#define FW_VER "10D"
+//#define HW_VER "2_27"
 
 // BuzzerPinOut is shared with TX line for serial.
 #define BUZZER_ENABLE
